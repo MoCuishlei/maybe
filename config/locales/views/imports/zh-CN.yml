@@ -1,0 +1,75 @@
+---
+zh-CN:
+  import:
+    cleans:
+      show:
+        description: 在下表中编辑您的数据。红色单元格无效。
+        errors_notice: 您的数据有误。将鼠标悬停在错误上可查看详细信息。
+        errors_notice_mobile: 您的数据有误。点击错误提示可查看详细信息。
+        title: 清理您的数据
+    configurations:
+      mint_import:
+        date_format_label: 日期格式
+      show:
+        description: 选择与 CSV 中每个字段对应的列。
+        title: 配置您的导入
+      trade_import:
+        date_format_label: 日期格式
+      transaction_import:
+        date_format_label: 日期格式
+    confirms:
+      mappings:
+        create_account: 创建账户
+        csv_mapping_label: "CSV 中的 %{mapping}"
+        maybe_mapping_label: "Maybe 中的 %{mapping}"
+        no_accounts: 您还没有任何账户。请创建一个我们可以用于 CSV 中（未分配）行的账户，或者返回“清理”步骤并提供一个我们可以使用的账户名。
+        rows_label: 行
+        unassigned_account: 需要为未分配的行创建新账户吗？
+      show:
+        account_mapping_description: 将所有导入文件的账户分配给 Maybe 的现有账户。您也可以添加新账户或将其保留为未分类。
+        account_mapping_title: 分配您的账户
+        account_type_mapping_description: 将所有导入文件的账户类型分配给 Maybe 的账户类型。
+        account_type_mapping_title: 分配您的账户类型
+        category_mapping_description: 将所有导入文件的类别分配给 Maybe 的现有类别。您也可以添加新类别或将其保留为未分类。
+        category_mapping_title: 分配您的类别
+        tag_mapping_description: 将所有导入文件的标签分配给 Maybe 的现有标签。您也可以添加新标签或将其保留为未分类。
+        tag_mapping_title: 分配您的标签
+    uploads:
+      show:
+        description: 在下方粘贴或上传您的 CSV 文件。开始前请查看下表中的说明。
+        instructions_1: 以下是可供导入的列的 CSV 示例。
+        instructions_2: 您的 CSV 必须有标题行。
+        instructions_3: 您可以随意命名您的列。您将在稍后的步骤中映射它们。
+        instructions_4: 标有星号 (*) 的列是必需数据。
+        instructions_5: 数字中不能包含逗号、货币符号和括号。
+        title: 导入您的数据
+  imports:
+    empty:
+      message: 尚无导入。
+      new: 新建导入
+    import:
+      complete: 完成
+      delete: 删除
+      failed: 失败
+      in_progress: 进行中
+      label: "%{type}: %{datetime}"
+      revert_failed: 还原失败
+      reverting: 正在还原
+      uploading: 正在处理行
+      view: 查看
+    index:
+      imports: 导入
+      new: 新建导入
+      title: 导入
+    new:
+      description: 您可以通过 CSV 手动导入各种类型的数据，或使用我们的导入模板（如 Mint）。
+      import_accounts: 导入账户
+      import_mint: 从 Mint 导入
+      import_portfolio: 导入投资
+      import_transactions: 导入交易
+      resume: 恢复 %{type}
+      sources: 来源
+      title: 新建 CSV 导入
+    ready:
+      description: 以下是发布此导入后将添加到您账户的新项目的摘要。
+      title: 确认您的导入数据
